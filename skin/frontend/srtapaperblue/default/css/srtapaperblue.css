@@ -1,0 +1,92 @@
+body {
+  font-family: 'Arima Madurai', cursive;
+  background-color: #98fbc8;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/****** HEADER ******/
+
+.logo {
+  padding: 1em 0;
+}
+.logo,
+.logo + div {
+  text-align: center;
+}
+
+.header-top,
+#footer {
+  background-color: #bcced6;
+}
+
+.top-search {
+  padding: 4em;
+}
+
+/* NAVIGATION */
+.navbar {
+  /*background-color: #e6aead;*/
+  background-color: #bcced6;
+  padding: .5em 0;
+}
+
+.navbar-default .navbar-nav li.active > a, .navbar-default .navbar-nav li:hover > a {
+    background-color: #c49729;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #bcced6;
+}
+
+#back_top {
+  background-color: #fff;
+  color: #c49729;
+}
+
+#back_top:hover {
+  background-color: #c49729;
+  color: #fff;
+}
+
+/* CAROUSEL */
+img.model {
+  max-width: 500px;
+}
+.sequence-canvas .title span {
+  color: #98fbc8;
+  font-weight: bold;
+}
+
+.banner-container h2.title {
+  top: 1em;
+}
+
+.sequence-pagination li.current {
+  background:  #98fbc8;
+}
+
+
+/****** FOCUS CONTENT ******/
+.focus-desc h2 {
+    color: #c49729;
+}
+
+/****** RIGHT COLUMN ******/
+.col-right {
+  background:  #98fbc8;
+}
+
+
+/****** FOOTER ******/
+
+.left-links h4,
+.right-links h4, {
+  color: #000;
+}

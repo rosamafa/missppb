@@ -1,0 +1,21 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_default
+ * @copyright   Copyright (c) 2015 Access Keys (http://www.access-keys.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ *
+ * Top menu for store
+ *
+ * @see Mage_Page_Block_Html_Topmenu
+ */
+?>
+<ul class="nav navbar-nav menu">
+<li class="level0 nav-0 first level-top <?php echo (Mage::helper('core/url')->getCurrentUrl() ==$this->getBaseUrl())?'active':'';?>">
+    <a href="<?php echo $this->getBaseUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"><span><?php echo $this->__('Home') ?</span></a>
+</li>
+<?php $_menu = $this->getHtml('level-top') ?>
+<?php if ($_menu): ?>
+<?php echo $_menu ?>
+<?php endif ?>
+</ul>

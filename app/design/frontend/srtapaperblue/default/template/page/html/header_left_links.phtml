@@ -1,0 +1,16 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_default
+ * @copyright   Copyright (c) 2015 Access Keys (http://www.access-keys.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+$general_email = Mage::getStoreConfig('trans_email/ident_general/email');
+?>
+<ul class="list-inline">
+	<li>
+		<a href="mailto:<?php echo(strpos($general_email,'owner')!=false)?$general_email:'hola@srtapaperblue.com';?>"><i class="fa fa-envelope-o"></i> <?php echo(strpos($general_email,'owner')!=false)?$general_email:'hola@srtapaperblue.com';?></a>
+	</li>
+</ul>

@@ -1,0 +1,97 @@
+<config>
+	<tabs>
+		<accessshop translate="label">
+			<label>AccessShop Theme</label>
+			<sort_order>000</sort_order>
+		</accessshop>
+	</tabs>
+	<sections>
+		<accessshop translate="label">
+			<label>Theme Options</label>
+			<tab>accessshop</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>1000</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<general translate="label" module="themeoptions">
+					<label>Demo Group</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>01</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<text_field translate="label">
+							<label>Input Text Field</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>00</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</text_field>
+						<che translate="label">
+							<label> Demo Field</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>00</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</che>
+					</fields>
+				</general>
+			</groups>
+			<!--<groups>
+				<mygroup translate="label" module="themeoptions">
+					<label>My test group title</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>01</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<enable_disable_field translate="label">
+							<label>Enable/Disable:</label>
+							<comment>Enable/Disable values</comment>
+							<frontend_type>select</frontend_type>
+							<sort_order>0</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_enabledisable</source_model>
+						</enable_disable_field>
+						<my_select_field translate="label">
+							<label>My Dropdown:</label>
+							<comment>Source model provider Magento's default Yes/No values</comment>
+							<frontend_type>select</frontend_type>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+						</my_select_field>
+						<textarea_field translate="label">
+							<label>Textarea</label>
+							<frontend_type>textarea</frontend_type>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</textarea_field>
+						<file translate="label comment">
+							<label>File</label>
+							<frontend_type>file</frontend_type>
+							<backend_model>adminhtml/system_config_backend_file</backend_model>
+							<upload_dir>media/accessshop</upload_dir>
+							<sort_order>70</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</file>
+					</fields>
+				</mygroup>
+			</groups>-->
+		</accessshop>
+	</sections>
+</config>
